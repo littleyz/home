@@ -1,37 +1,202 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/littleyz/home/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<html>
+<head>
 
-### Markdown
+<title>天一生水</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="description" content="天一生水英文翻译--onewater run">
+<meta name="keywords" content="天一生水,onewater run,jiangyu.org">
+<link rel="icon" href="/onewaterrun.png"/>
+<link rel="stylesheet" href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-y/font-awesome/5.15.4/css/all.min.css">
+<link rel='stylesheet' id='font-misans-css'  href='https://font.sec.miui.com/font/css?family=MiSans:300,450,500,650:Chinese_Simplify,Latin&display=swap' type='text/css' media='screen' />
+<style>
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    min-height: 560px;
+    min-width: 800px;
+    font-family: 'MiSans';
+    background-color: ;
+}
+.main {
+    position: relative;
+    top: 50%;
+    margin-top: -180px;
+}
+.titleouter {
+ font-family: 'MiSans';
+ 
+}
+ .title {
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-family: 'MiSans';
+    font-size: 64px;
+    color:#ff4500;
+	font-weight: 300;
+    text-align: center;
+    background-size: 800px;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.title span {
+	color:#333333;
+	}
+.title img {
+    vertical-align: bottom;
+}
 
-```markdown
-Syntax highlighted code block
+.download {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+	 color: black;
+}
+.download a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+}
+.download hover {
+    color: #555;
+}
+.download i {
+    font-size: 20px;
+    color: black;
+}
+.download i:hover {
+    color: #FF4500;
+}
+.invite {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    text-align: center;
+    display: none;
+}
+.invite i {
+    font-size: 16px;
+    color: #555;
+}
+.invite i:hover {
+    color: black;
+}
+    
+.invite a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    background: rgb(66, 133, 244);
+    color: white;
+    padding: 5px 10px;
+}
+.invite a:hover {
+    background: rgb(130, 177, 255);
+}
+.footer {
+    font-size: 14px;
+    text-align: center;
+    color: #cccccc;
+    padding-bottom: 20px;
+}
+.footer i {
+    font-size: 14px;
+    color: #cccccc;
+}
+.footer i:hover {
+    color: black;
+}
+.footer a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14;
+    margin: 0 3px;
+}
+.footer a:hover {
+    color: black;
+}
 
-# Header 1
-## Header 2
-### Header 3
+</style>
 
-- Bulleted
-- List
+    <style>
+        #main {
+        }
 
-1. Numbered
-2. List
+        #qrcode img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 129px;
+            height: 129px;
+            display: block;
+        }
 
-**Bold** and _Italic_ and `Code` text
+        #qrcode {
+            position: fixed;
+            top: -130;
+            left: 30;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            z-index: 9999;
+            display: none;
+        }
+    </style>
 
-[Link](url) and ![Image](src)
-```
+    <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<div class="main">
+    <div class="titleouter">
+       <div class="title">onewater<span>.run</span></div>
+    
+    </div>
+ 
+    <div class="download">
 
-### Jekyll Themes
+    </div>
+    <div class="footer">&copy; 2022 <a href=""></a> <!--
+            <i id="main" class="fab fa-weixin" title="微信公众号"></i>
+			   <div id="qrcode">
+        <img id="image" width="100%" height="100%" src="https://ipc.name/wp-content/uploads/2021/10/mp2021.jpg">
+    </div>
+			<script>
+        $(function() {
+            $("#main").click(function() {
+                $("#qrcode").fadeIn("slow");
+            });
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/littleyz/home/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+            $("#qrcode").click(function() {
+                $("#qrcode").fadeOut("slow");
+            })
+            
+        });
+    </script>
+       <a target="_blank" href="https://www.jiangyu.org" title="博客">
+            <i class="fas fa-blog"></i>
+        </a>
+       <a target="_blank" href="" title="">
+            <i class="fab fa-dropbox"></i>
+        </a>
+           <a target="_blank" href="" title="">
+            <i class="fas fa-heart"></i>
+        </a>
+ -->
+    
+    </div>
 
-### Support or Contact
+</div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+			
+			
+</body>
+</html>
